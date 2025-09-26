@@ -44,7 +44,7 @@ const ImageGenerator: React.FC<ImageGeneratorProps> = ({ prompt }) => {
   };
 
   return (
-    <div className="my-6 p-4 border-2 border-dashed border-green-200 rounded-lg text-center">
+    <div className="my-6 p-4 border-2 border-dashed border-green-200 dark:border-gray-700 rounded-lg text-center bg-white dark:bg-gray-800">
       {imageUrl && (
         <div className="mb-4">
           <img 
@@ -60,7 +60,7 @@ const ImageGenerator: React.FC<ImageGeneratorProps> = ({ prompt }) => {
             <div className="w-4 h-4 rounded-full animate-pulse bg-green-600"></div>
             <div className="w-4 h-4 rounded-full animate-pulse bg-green-600" style={{ animationDelay: '0.2s' }}></div>
             <div className="w-4 h-4 rounded-full animate-pulse bg-green-600" style={{ animationDelay: '0.4s' }}></div>
-            <span className="text-gray-600 ml-2">Generating Image...</span>
+            <span className="text-gray-600 dark:text-gray-300 ml-2">Generating Image...</span>
         </div>
       ) : (
         <button

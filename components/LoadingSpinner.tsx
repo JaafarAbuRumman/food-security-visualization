@@ -7,7 +7,7 @@ const LoadingSpinner: React.FC = () => {
       <div className="w-4 h-4 rounded-full animate-pulse bg-green-600"></div>
       <div className="w-4 h-4 rounded-full animate-pulse bg-green-600" style={{ animationDelay: '0.2s' }}></div>
       <div className="w-4 h-4 rounded-full animate-pulse bg-green-600" style={{ animationDelay: '0.4s' }}></div>
-      <span className="text-gray-600 ml-2">Loading...</span>
+      <span className="text-gray-600 dark:text-gray-300 ml-2">Loading...</span>
     </div>
   );
 };

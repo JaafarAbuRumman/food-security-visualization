@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 const NotFoundPage: React.FC = () => {
   return (
     <div className="text-center py-20">
-      <h1 className="text-6xl font-extrabold text-green-700">404</h1>
-      <p className="text-2xl mt-4 mb-8 text-gray-600">Page Not Found</p>
-      <p className="text-gray-500">
+      <h1 className="text-6xl font-extrabold text-green-700 dark:text-green-400">404</h1>
+      <p className="text-2xl mt-4 mb-8 text-gray-600 dark:text-gray-300">Page Not Found</p>
+      <p className="text-gray-500 dark:text-gray-400">
         Sorry, the page you are looking for does not exist.
       </p>
       <Link 

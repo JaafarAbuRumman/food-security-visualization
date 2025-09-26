@@ -14,9 +14,9 @@ const PlantDiseasesPage: React.FC = () => {
   
   return (
     <div className="space-y-8">
-      <div className="bg-white p-6 rounded-lg shadow-md">
-        <h1 className="text-3xl font-bold text-green-700 mb-2">{data.title}</h1>
-        <p className="text-gray-600 leading-relaxed">{data.description}</p>
+      <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
+        <h1 className="text-3xl font-bold text-green-700 dark:text-green-400 mb-2">{data.title}</h1>
+        <p className="text-gray-600 dark:text-gray-300 leading-relaxed">{data.description}</p>
       </div>
 
       {data.image_prompt && <ImageGenerator prompt={data.image_prompt} />}

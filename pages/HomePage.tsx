@@ -14,9 +14,9 @@ const HomePage: React.FC = () => {
 
   return (
     <div className="space-y-12">
-      <div className="text-center p-8 bg-white rounded-lg shadow-md">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-green-700 mb-4">{data.title}</h1>
-        <p className="max-w-3xl mx-auto text-lg text-gray-600 leading-relaxed">
+      <div className="text-center p-8 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+        <h1 className="text-4xl md:text-5xl font-extrabold text-green-700 dark:text-green-400 mb-4">{data.title}</h1>
+        <p className="max-w-3xl mx-auto text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
           {data.introduction}
         </p>
       </div>
@@ -26,10 +26,10 @@ const HomePage: React.FC = () => {
           <Link 
             key={topic.title} 
             to={topic.path}
-            className="block p-6 bg-white rounded-lg shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 ease-in-out"
+            className="block p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 ease-in-out dark:border dark:border-gray-700"
           >
-            <h2 className="text-2xl font-bold text-green-600 mb-2">{topic.title}</h2>
-            <p className="text-gray-600">{topic.description}</p>
+            <h2 className="text-2xl font-bold text-green-600 dark:text-green-400 mb-2">{topic.title}</h2>
+            <p className="text-gray-600 dark:text-gray-300">{topic.description}</p>
           </Link>
         ))}
       </div>

@@ -13,25 +13,28 @@ import PlantsPage from './pages/PlantsPage.tsx';
 import VerticalFarmingPage from './pages/VerticalFarmingPage.tsx';
 import PlantDiseasesPage from './pages/PlantDiseasesPage.tsx';
 import NotFoundPage from './pages/NotFoundPage.tsx';
+import { ThemeProvider } from './contexts/ThemeContext.tsx';
 
 const App: React.FC = () => {
   return (
-    <div className="min-h-screen flex flex-col font-sans">
-      <Header />
-      <main className="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/statistics" element={<StatisticsPage />} />
-          <Route path="/irrigation" element={<IrrigationPage />} />
-          <Route path="/crops" element={<CropsPage />} />
-          <Route path="/plants" element={<PlantsPage />} />
-          <Route path="/vertical-farming" element={<VerticalFarmingPage />} />
-          <Route path="/plant-diseases" element={<PlantDiseasesPage />} />
-          <Route path="*" element={<NotFoundPage />} />
-        </Routes>
-      </main>
-      <Footer />
-    </div>
+    <ThemeProvider>
+      <div className="min-h-screen flex flex-col font-sans bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-200 transition-colors duration-300">
+        <Header />
+        <main className="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/statistics" element={<StatisticsPage />} />
+            <Route path="/irrigation" element={<IrrigationPage />} />
+            <Route path="/crops" element={<CropsPage />} />
+            <Route path="/plants" element={<PlantsPage />} />
+            <Route path="/vertical-farming" element={<VerticalFarmingPage />} />
+            <Route path="/plant-diseases" element={<PlantDiseasesPage />} />
+            <Route path="*" element={<NotFoundPage />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </ThemeProvider>
   );
 };
 
