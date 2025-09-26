@@ -1,0 +1,150 @@
+{
+  "home": {
+    "title": "Ensuring Food Security in Jordan",
+    "introduction": "Jordan, a nation with rich history and culture, faces significant challenges in food security due to its arid climate, scarce water resources, and reliance on food imports. This project explores the current state of agriculture in Jordan, innovative solutions being implemented, and the path towards a sustainable and secure food future.",
+    "key_topics": [
+      {
+        "title": "Agricultural Statistics",
+        "description": "Explore the data behind Jordan's farming landscape.",
+        "path": "/statistics"
+      },
+      {
+        "title": "Irrigation Innovations",
+        "description": "Learn about the water-saving techniques vital for survival.",
+        "path": "/irrigation"
+      },
+      {
+        "title": "Crops & Plants",
+        "description": "Discover what thrives and what is rare in Jordanian soil.",
+        "path": "/crops"
+      },
+      {
+        "title": "Vertical Farming",
+        "description": "The future of agriculture, growing upwards, not outwards.",
+        "path": "/vertical-farming"
+      }
+    ]
+  },
+  "statistics": {
+    "title": "Agriculture in Jordan: A Statistical Overview",
+    "description": "Jordan's agricultural sector is a mix of traditional and modern practices, constantly adapting to environmental constraints. The chart below illustrates the distribution of major agricultural types based on land use and production value. Rain-fed agriculture remains significant, but protected cropping in greenhouses is vital for high-value produce.",
+    "image_prompt": "A vibrant and modern infographic chart visualizing agricultural statistics for Jordan, showing pie charts and bar graphs with icons for wheat, olives, and vegetables. Stylized, clean, data visualization.",
+    "chartData": [
+      { "name": "Rain-fed Field Crops (Grains)", "percentage": 45 },
+      { "name": "Fruit Trees (Olives, Grapes)", "percentage": 30 },
+      { "name": "Vegetables (Protected/Greenhouses)", "percentage": 15 },
+      { "name": "Livestock & Poultry", "percentage": 8 },
+      { "name": "Other", "percentage": 2 }
+    ]
+  },
+  "irrigation": {
+    "title": "Smart Irrigation: Jordan's Lifeline",
+    "description": "With over 90% of its land being arid or semi-arid, water is Jordan's most precious resource. Efficient irrigation is not just beneficial; it's essential for survival. The country has become a regional leader in adopting water-saving technologies.",
+    "image_prompt": "A diagram illustrating drip irrigation in a Jordanian field with olive trees. Show the sun, arid landscape, and water efficiently dripping at the base of the plants. Educational, clear, and hopeful tone.",
+    "systems": [
+      {
+        "name": "Drip Irrigation",
+        "text": "This is the most widely used method for high-value crops like tomatoes and cucumbers. It delivers water and nutrients directly to the plant's root zone, minimizing evaporation and runoff. It can reduce water use by up to 70% compared to traditional flood irrigation."
+      },
+      {
+        "name": "Treated Wastewater Reuse",
+        "text": "Jordan is a pioneer in using treated wastewater for agriculture, particularly for fodder crops and fruit trees. This practice helps conserve freshwater resources for drinking and domestic use, turning a liability into a valuable asset."
+      },
+      {
+        "name": "Rainwater Harvesting",
+        "text": "Ancient techniques and modern engineering combine to capture and store precious rainwater. From small-scale rooftop systems to larger community dams (hafirs), harvesting runoff helps recharge groundwater and provides a supplemental source for irrigation during dry spells."
+      }
+    ]
+  },
+  "crops": {
+    "title": "Crops of Jordan: Available & Rare",
+    "description": "The Jordanian landscape supports a variety of crops, from hardy, drought-resistant staples to delicate fruits grown in controlled environments.",
+    "image_prompt": "A split-view image. On one side, a lush greenhouse in Jordan filled with ripe red tomatoes. On the other side, a field of hardy olive trees under the sun. High-resolution, realistic, showing abundance.",
+    "categories": [
+      {
+        "title": "Widely Available Crops",
+        "items": [
+          "Tomatoes: Jordan's leading vegetable export, grown extensively in the Jordan Valley under plastic houses.",
+          "Cucumbers: Another staple greenhouse crop, produced year-round.",
+          "Olives: A cornerstone of Jordanian culture and cuisine, with olive groves dotting the northern highlands.",
+          "Citrus Fruits: Oranges, lemons, and mandarins are common in the Jordan Valley.",
+          "Wheat & Barley: Traditional rain-fed crops, though production varies greatly with annual rainfall."
+        ]
+      },
+      {
+        "title": "Rare or Specialized Crops",
+        "items": [
+          "Dates (Medjool): High-quality Medjool dates are a growing luxury export, cultivated in the hot, dry regions of the Jordan Valley and Aqaba.",
+          "Avocados: A water-intensive crop, grown on a very limited scale in specific microclimates.",
+          "Berries: Strawberries, raspberries, and blueberries are being introduced using hydroponic and vertical farming systems, but remain rare and expensive.",
+          "Quinoa: This nutrient-rich grain is being tested as a potential drought and salt-tolerant alternative to traditional cereals."
+        ]
+      }
+    ]
+  },
+  "plants": {
+    "title": "Native & Rare Plants of Jordan",
+    "description": "Beyond agriculture, Jordan is home to a unique biodiversity of native plants, many of which are adapted to extreme conditions and hold cultural or medicinal value.",
+    "image_prompt": "A detailed botanical illustration of the Black Iris, the national flower of Jordan. Dark, velvety petals, set against a subtle background of Jordanian landscape. Elegant and scientific.",
+    "categories": [
+      {
+        "title": "Common Native Plants",
+        "items": [
+          "Black Iris (Iris nigricans): The national flower of Jordan, found in the northern parts of the country. Its dark, majestic petals are a unique sight in the spring.",
+          "Oleander (Nerium oleander): A hardy, flowering shrub often found along wadis (dry riverbeds), known for its beautiful but toxic flowers.",
+          "Tamarisk (Tamarix): A salt-tolerant tree that thrives in the saline soils of the Jordan Valley and Dead Sea area, helping to stabilize soil."
+        ]
+      },
+      {
+        "title": "Rare or Endangered Plants",
+        "items": [
+          "Acacia raddiana: A desert tree that is a key species in the southern desert ecosystems, now facing threats from overgrazing and climate change.",
+          "Pistacia atlantica: An ancient, slow-growing tree found in the highlands, some specimens are believed to be thousands of years old. They are a vital part of the region's natural heritage.",
+          "Origanum syriacum (Za'atar): While the spice mix is common, the wild plant is under pressure from over-harvesting, leading to conservation efforts to promote its cultivation."
+        ]
+      }
+    ]
+  },
+  "vertical_farming": {
+    "title": "Vertical Farming: Reaching for the Sky",
+    "description": "Vertical farming represents a paradigm shift in agriculture, perfectly suited to address Jordan's challenges of land and water scarcity. By growing crops in stacked layers within controlled environments, this method offers a path to urban food production and reduced import dependency.",
+    "image_prompt": "A futuristic indoor vertical farm in Amman, Jordan. Glowing purple LED lights illuminate stacks of leafy green vegetables. People are tending to the plants. High-tech, clean, and sustainable.",
+    "points": [
+      {
+        "title": "Water Efficiency",
+        "text": "Hydroponic and aeroponic systems used in vertical farms can use up to 95% less water than traditional soil-based farming. Water is recirculated and reused, making every drop count."
+      },
+      {
+        "title": "Land Productivity",
+        "text": "A single square meter of a vertical farm can produce the equivalent of many square meters of open field. This is crucial for a country where arable land is limited. It allows farming to move into cities, reducing transportation costs and carbon footprint."
+      },
+      {
+        "title": "Year-Round Production",
+        "text": "Insulated from harsh weather, pests, and seasonality, vertical farms can produce fresh, high-quality crops 365 days a year. This ensures a consistent supply of leafy greens, herbs, and other produce for the local market."
+      },
+      {
+        "title": "Challenges",
+        "text": "The primary challenges are high initial setup costs and significant energy consumption for lighting and climate control. However, with falling costs of LED technology and the potential to integrate renewable energy, vertical farming is becoming an increasingly viable solution for Jordan's food security."
+      }
+    ]
+  },
+  "plant_diseases": {
+    "title": "Common Plant Diseases in Jordan",
+    "description": "Protecting crops from diseases is a constant battle for farmers. The warm climate can foster various fungal and viral infections, which threaten yields and economic stability.",
+    "image_prompt": "A close-up photograph of a tomato leaf affected by Tomato Yellow Leaf Curl Virus, showing the yellowing and curling. Next to it, a healthy, vibrant green tomato leaf for comparison. Macro photography, educational.",
+    "diseases": [
+      {
+        "name": "Tomato Yellow Leaf Curl Virus (TYLCV)",
+        "text": "Transmitted by the whitefly, this is one of the most devastating viruses affecting tomato crops worldwide, including Jordan. It causes severe stunting of plants and a dramatic reduction in fruit yield. Management relies on controlling the whitefly vector, using resistant varieties, and maintaining strict farm hygiene."
+      },
+      {
+        "name": "Powdery Mildew",
+        "text": "A fungal disease that affects a wide range of plants, including cucumbers, grapes, and squash. It appears as white, powdery spots on leaves and stems. It thrives in high humidity and moderate temperatures, common conditions in greenhouses. Control methods include fungicides and improving air circulation."
+      },
+      {
+        "name": "Olive Peacock Spot (Spilocaea oleaginea)",
+        "text": "This fungal disease affects olive trees, causing dark, circular spots on the leaves, which can lead to premature leaf drop. Severe infections weaken the tree and significantly reduce olive oil yield and quality. Pruning to improve air circulation and applying copper-based fungicides are key prevention strategies."
+      }
+    ]
+  }
+}
