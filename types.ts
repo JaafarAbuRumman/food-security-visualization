@@ -1,13 +1,22 @@
 
+
+
 export interface KeyTopic {
   title: string;
   description: string;
   path: string;
 }
 
+export interface HomeImage {
+    title: string;
+    description: string;
+    image_prompt: string;
+}
+
 export interface HomePageData {
   title: string;
   introduction: string;
+  images: HomeImage[];
   key_topics: KeyTopic[];
 }
 
@@ -73,6 +82,22 @@ export interface PlantDiseasesPageData {
     image_prompt?: string;
 }
 
+export interface SuggestionsPageData {
+    title: string;
+    description: string;
+}
+
+export interface InteractiveMapPageData {
+  title: string;
+  description: string;
+}
+
+export interface FuturePageData {
+  title: string;
+  description: string;
+  image_prompt: string;
+  innovations: TitledText[];
+}
 
 export interface AppData {
   home: HomePageData;
@@ -82,4 +107,7 @@ export interface AppData {
   plants: PlantsPageData;
   vertical_farming: VerticalFarmingPageData;
   plant_diseases: PlantDiseasesPageData;
+  suggestions: SuggestionsPageData;
+  interactive_map: InteractiveMapPageData;
+  future: FuturePageData;
 }

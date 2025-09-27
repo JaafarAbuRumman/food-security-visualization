@@ -1,0 +1,87 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jordan Valley",
+        "description": "The 'food basket' of Jordan, this fertile rift valley is intensely cultivated with fruits and vegetables, primarily in greenhouses. It relies heavily on irrigation from the Jordan River and King Abdullah Canal. Water scarcity is a critical issue."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [35.56, 32.5],
+            [35.6, 31.8],
+            [35.5, 30.5],
+            [35.4, 29.6],
+            [35.3, 29.6],
+            [35.45, 30.5],
+            [35.5, 31.8],
+            [35.5, 32.5],
+            [35.56, 32.5]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Highlands Region",
+        "description": "Stretching from Irbid in the north to the Shoubak mountains in the south, this region receives higher rainfall. It's known for its rain-fed crops like wheat, barley, and vast olive groves, which are a cornerstone of the local economy."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [35.7, 32.6],
+            [36.2, 32.4],
+            [36.0, 31.5],
+            [35.8, 30.2],
+            [35.6, 30.2],
+            [35.8, 31.5],
+            [35.7, 32.6]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eastern Desert (Badia)",
+        "description": "Comprising about 80% of Jordan's landmass, this arid to semi-arid region is primarily used for rangeland grazing of sheep and goats. Innovative water harvesting projects are enabling limited cultivation of barley and fodder."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [36.2, 32.8],
+            [39.0, 32.0],
+            [38.5, 30.0],
+            [36.5, 30.8],
+            [36.2, 32.8]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Southern Desert Region",
+        "description": "Including areas like Wadi Rum and the Aqaba region, this is the driest part of the country. Agriculture is highly specialized, focusing on high-value crops like Medjool dates and certain vegetables using drip irrigation from deep aquifers."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [35.1, 30.0],
+            [36.0, 30.0],
+            [36.0, 29.2],
+            [35.0, 29.2],
+            [35.1, 30.0]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -3,15 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale-1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PixelSite - Food Security in Jordan</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""></script>
   <script>
       // Polyfill for process.env to prevent ReferenceError in browser environments
       if (typeof process === 'undefined') {
         window.process = { env: {} };
       }
     </script>
+  <style>
+    .leaflet-popup-content-wrapper {
+      background-color: var(--popup-bg) !important;
+      color: var(--popup-text) !important;
+      border-radius: 8px !important;
+    }
+    .leaflet-popup-tip {
+       background-color: var(--popup-bg) !important;
+    }
+    html.light {
+      --popup-bg: #ffffff;
+      --popup-text: #374151;
+    }
+    html.dark {
+      --popup-bg: #1f2937;
+      --popup-text: #d1d5db;
+    }
+  </style>
   <script type="importmap">
 {
   "imports": {

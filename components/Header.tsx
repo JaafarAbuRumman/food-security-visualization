@@ -11,12 +11,15 @@ const navLinks = [
   { name: 'Plants', path: '/plants' },
   { name: 'Vertical Farming', path: '/vertical-farming' },
   { name: 'Plant Diseases', path: '/plant-diseases' },
+  { name: 'Interactive Map', path: '/interactive-map' },
+  { name: 'Future', path: '/future' },
+  { name: 'Suggestions', path: '/suggestions' },
 ];
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   
-  const baseLinkClasses = "px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ease-in-out";
+  const baseLinkClasses = "px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ease-in-out whitespace-nowrap";
   const inactiveLinkClasses = "text-gray-600 dark:text-gray-300 hover:bg-green-100 dark:hover:bg-gray-700 hover:text-green-800 dark:hover:text-white";
   const activeLinkClasses = "bg-green-600 text-white";
 

@@ -2,6 +2,18 @@
   "home": {
     "title": "Ensuring Food Security in Jordan",
     "introduction": "Jordan, a nation with rich history and culture, faces significant challenges in food security due to its arid climate, scarce water resources, and reliance on food imports. This project explores the current state of agriculture in Jordan, innovative solutions being implemented, and the path towards a sustainable and secure food future.",
+    "images": [
+      {
+        "title": "Geographic Context",
+        "description": "Visualize Jordan's unique landscape, highlighting the arid regions and the fertile Jordan Valley which are central to its agricultural identity.",
+        "image_prompt": "A stylized satellite map of Jordan, highlighting the arid desert regions in shades of orange and the fertile Jordan Valley in lush green. Include major cities like Amman and Aqaba. Infographic style, clean, and modern."
+      },
+      {
+        "title": "Jordanian Agriculture in Action",
+        "description": "Generate an image that captures the spirit of innovation and resilience in Jordanian farming, from ancient olive groves to modern greenhouses.",
+        "image_prompt": "A hopeful and vibrant image of a Jordanian farmer inspecting healthy tomato plants inside a modern greenhouse, with the sun setting over distant desert mountains in the background. Realistic, warm lighting."
+      }
+    ],
     "key_topics": [
       {
         "title": "Agricultural Statistics",
@@ -22,6 +34,11 @@
         "title": "Vertical Farming",
         "description": "The future of agriculture, growing upwards, not outwards.",
         "path": "/vertical-farming"
+      },
+      {
+        "title": "Future of Food Security",
+        "description": "How AI and technology are shaping the future of agriculture.",
+        "path": "/future"
       }
     ]
   },
@@ -144,6 +161,37 @@
       {
         "name": "Olive Peacock Spot (Spilocaea oleaginea)",
         "text": "This fungal disease affects olive trees, causing dark, circular spots on the leaves, which can lead to premature leaf drop. Severe infections weaken the tree and significantly reduce olive oil yield and quality. Pruning to improve air circulation and applying copper-based fungicides are key prevention strategies."
+      }
+    ]
+  },
+  "suggestions": {
+    "title": "Share Your Ideas",
+    "description": "Your insights are valuable. Do you have a suggestion, an innovative idea, or a note about improving food security in Jordan? Please share it with us using the form below."
+  },
+  "interactive_map": {
+    "title": "Interactive Agricultural Map of Jordan",
+    "description": "Explore Jordan's key agricultural regions. Click on a highlighted area to learn more about its characteristics, primary crops, and the challenges it faces regarding water and food security."
+  },
+  "future": {
+    "title": "The Next Harvest: Technology and the Future of Food in Jordan",
+    "description": "Jordan stands at a pivotal moment, where embracing technology is key to a food-secure future. By integrating artificial intelligence, advanced sensor networks, and innovative data platforms, the nation can transform its agricultural landscape, overcoming the challenges of water scarcity and arid land.",
+    "image_prompt": "A futuristic vision of Jordanian agriculture, with drones monitoring lush vertical farms in a smart city, and a scientist analyzing data on a holographic display. The background shows the desert landscape transitioning to green. High-tech, optimistic, and clean aesthetic.",
+    "innovations": [
+      {
+        "title": "Artificial Intelligence (AI) & Machine Learning",
+        "text": "AI algorithms can analyze vast datasets from satellites, drones, and soil sensors to provide farmers with precise, actionable insights. This includes predicting crop yields, detecting diseases before they spread, optimizing irrigation schedules to the exact needs of each plant, and recommending the perfect time for harvest."
+      },
+      {
+        "title": "Internet of Things (IoT) in the Field",
+        "text": "A network of smart sensors deployed across farms can monitor soil moisture, nutrient levels, temperature, and humidity in real-time. This data feeds directly into automated irrigation and climate control systems in greenhouses, ensuring optimal growing conditions while conserving every drop of water."
+      },
+      {
+        "title": "Drones and Precision Agriculture",
+        "text": "Agricultural drones equipped with multispectral cameras can survey hundreds of acres in minutes. They can identify pest infestations, assess plant health, and apply targeted treatments with surgical precision, reducing the need for broad-spectrum pesticides and improving crop quality."
+      },
+      {
+        "title": "Blockchain for Food Traceability",
+        "text": "Blockchain technology can create a transparent and immutable record of a food product's journey from farm to table. This enhances food safety, ensures authenticity (e.g., for organic or premium exports like Medjool dates), and builds consumer trust, which is vital for both local markets and international trade."
       }
     ]
   }
